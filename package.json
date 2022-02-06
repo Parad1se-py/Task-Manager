@@ -1,0 +1,27 @@
+{
+  "name": "taskmanager",
+  "version": "1.0.0",
+  "description": "This is a task manager created by TigerNinja. This is my first project",
+  "main": "index.js",
+  "scripts": {
+    "test": "tm"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TigerNinja22/Task-Manager.git"
+  },
+  "keywords": [
+    "javascript",
+    "js",
+    "task-manager",
+    "task",
+    "manager",
+    "productive"
+  ],
+  "author": "Arjun Ladha",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/TigerNinja22/Task-Manager/issues"
+  },
+  "homepage": "https://github.com/TigerNinja22/Task-Manager#readme"
+}
