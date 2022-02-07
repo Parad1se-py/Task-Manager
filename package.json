@@ -2,8 +2,9 @@
   "name": "task-manager",
   "version": "1.0.0",
   "description": "A task manager to increase your productivity. First JavaScript project made by Arjun Ladha",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
+    "start": "nodemon app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -22,5 +23,9 @@
   "bugs": {
     "url": "https://github.com/TigerNinja22/Task-Manager/issues"
   },
-  "homepage": "https://github.com/TigerNinja22/Task-Manager#readme"
+  "homepage": "https://github.com/TigerNinja22/Task-Manager#readme",
+  "dependencies": {
+    "express": "^4.17.2",
+    "nodemon": "^2.0.15"
+  }
 }
