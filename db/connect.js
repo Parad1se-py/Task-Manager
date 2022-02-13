@@ -2,7 +2,7 @@ const mongoose = require('mongoose');
 
 
 const connecDB = (url) =>{
-    console.log("Connected to database...");
+    console.log('%c Connected to database...', 'color: green; font-weight: bold;');
     return mongoose.connect(url)
 }
 
